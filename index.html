@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script> 
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Minesweeper</title>
+</head>
+<body>
+    <div class="title">
+        <h3> <span class="badge badge-secondary">Minesweeper game!</span></h3>
+    </div>
+    <div>
+        <div class="level">
+            <h4>Level:</h4>
+            <a href="#" class="btn btn-warning" id="easy">Easy</a>
+            <a href="#" class="btn btn-success"id="medium">Medium</a>
+            <a href="#" class="btn btn-danger" id="hard">Hard</a>
+        </div>
+        <div class="grid">
+            <div id="win"></div>
+            <div id="lose"></div>
+            <table align="center" id="grid"></table>
+        </div>
+    </div>
+    <div class="settings">
+        <div class="time">
+            <label id="minutes">00</label>:<label id="seconds">00</label>
+        </div>
+        <button id="new" class="btn btn-info">New Game!</button>
+    </div>
+</body>
+</html>

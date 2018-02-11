@@ -1,0 +1,84 @@
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    font: bold 16px arial;
+    background-image: "img/blank.png";
+  }
+.title{
+    margin: 28px;
+    text-align: center;
+}
+.level{
+    text-align: center;
+    padding: 10px;
+}
+.grid{
+    text-align: center;
+    margin: 27px 0px;
+}
+.settings{
+    padding: 10px;
+    text-align: center;
+}
+.time{
+    margin-left: 10px;
+    padding-bottom: 10px;
+    text-align: center
+}
+#new{
+    margin-left: 10px;
+    padding: 10px;
+}
+td.bomb {
+    background-image: url("img/bomb.png");
+    width : 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+td.flag{
+    background-image: url("img/flag.png");
+    width : 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+td.exposed {
+    background-image: url("img/exposed.png");
+    width : 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+td.one {
+    background-image: url("img/1.png");
+    width : 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+td.two {
+    background-image: url("img/2.png");
+    width : 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+td.three {
+    background-image: url("img/3.png");
+    width : 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+td.four {
+    background-image: url("img/4.png");
+    width : 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+td.five {
+    background-image: url("img/5.png");
+    width : 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
